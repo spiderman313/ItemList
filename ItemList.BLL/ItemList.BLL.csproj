@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ItemList.DataAccess\ItemList.DataAccess.csproj" />
+		<ProjectReference Include="..\ItemList.Domain\ItemList.Domain.csproj" />
+	</ItemGroup>
+
+</Project>
